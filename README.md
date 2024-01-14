@@ -1,2 +1,3 @@
 # kraftalgo
-Editorials for Competitive Programming problems
+
+Website of editorials for Competitive Programming problems
