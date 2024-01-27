@@ -45,6 +45,7 @@ main .search {
 
 .gradient-text {
     background: -webkit-linear-gradient(#1B7432, #67B900);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
