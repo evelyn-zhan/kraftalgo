@@ -1,13 +1,50 @@
 * {
     margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 header {
-    padding: 1.5rem 2.5rem;
+    display: inline;
+}
 
+.logo {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     align-items: center;
+
+    padding: 1.3rem 2.5rem 12rem;
+
+    position: sticky;
+    top: 0;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 12rem 0;
+
+    padding: 0 20rem;
+}
+
+main h1, h2 {
+    font-weight: 800;
+}
+
+main p {
+    font-weight: 700;
+}
+
+main .introduction {
+    align-self: center;
+    text-align: center;
+}
+
+main .search {
+    align-self: flex-start;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(#1B7432, #67B900);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
