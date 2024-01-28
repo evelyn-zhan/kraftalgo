@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 12rem;
+
+    padding: 10rem 18rem;
+}
+
+main .introduction {
+    align-self: center;
+    text-align: center;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(#1B7432, #67B900);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main .introduction a {
+    text-decoration: none;
+
+    padding: 1rem 1.5rem;
+
+    background-color: black;
+    color: white;
+    font-weight: 700;
+
+    border-radius: 15px;
+
+    transition: all .3s ease-in-out;
+}
+
+main .introduction a:hover {
+    background: -webkit-linear-gradient(#1B7432, #67B900);
+}
+
+main .description {
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+}
+
+main .reverse {
+    flex-flow: row-reverse;
+}
