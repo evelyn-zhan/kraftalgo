@@ -10,12 +10,12 @@ p {
     margin-top: 1rem;
 }
 
-main .introduction {
+.introduction {
     align-self: center;
     text-align: center;
 }
 
-main .introduction a {
+.introduction a {
     text-decoration: none;
 
     padding: 1rem 1.5rem;
@@ -29,16 +29,59 @@ main .introduction a {
     transition: all .3s ease-in-out;
 }
 
-main .introduction a:hover {
+.introduction a:hover {
     background: -webkit-linear-gradient(#1B7432, #67B900);
 }
 
-main .description {
+.description {
     display: flex;
     gap: 8rem;
     align-items: center;
 }
 
-main .reverse {
+.reverse {
     flex-flow: row-reverse;
+}
+
+@media screen and (max-width: 1300px) {
+    main {
+        padding: 10rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        padding: 10rem 4rem;
+    }
+
+    .description {
+        gap: 4rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        padding: 10rem 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        gap: 3rem;
+        padding-bottom: 5rem;
+    }
+
+    h1 {
+        font-size: 0.9rem;
+    }
+
+    .introduction {
+        padding-bottom: 5rem;
+    }
+
+    .description {
+        flex-flow: column-reverse nowrap;
+        gap: 2rem;
+        align-items: flex-start;
+    }
 }

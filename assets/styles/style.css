@@ -10,6 +10,12 @@ body {
 
 header {
     display: inline;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .logo {
@@ -17,14 +23,7 @@ header {
     gap: 0.5rem;
     align-items: center;
 
-    margin: 1.3rem 2.5rem;
-
-    position: sticky;
-    top: 0;
-
-    text-decoration: none;
-
-    width: 100px;
+    padding: 1.5rem 2.5rem;
 }
 
 .gradient-text {
@@ -40,4 +39,10 @@ footer {
     padding: 2rem 0;
 
     color: #A9A9A9;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        padding-left: 1.5rem;
+    }
 }
