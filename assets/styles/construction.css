@@ -1,0 +1,8 @@
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1.5rem;
+    align-items: center;
+
+    padding: 10rem;
+}
