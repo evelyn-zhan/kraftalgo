@@ -1,14 +1,11 @@
 * {
     margin: 0;
     font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     font-weight: 500;
-}
-
-p {
-    margin-top: 1rem;
 }
 
 header {
@@ -20,10 +17,21 @@ header {
     gap: 0.5rem;
     align-items: center;
 
-    padding: 1.3rem 2.5rem;
+    margin: 1.3rem 2.5rem;
 
     position: sticky;
     top: 0;
+
+    text-decoration: none;
+
+    width: 100px;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(#1B7432, #67B900);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 footer {

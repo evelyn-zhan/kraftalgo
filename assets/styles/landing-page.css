@@ -6,16 +6,13 @@ main {
     padding: 10rem 18rem;
 }
 
+p {
+    margin-top: 1rem;
+}
+
 main .introduction {
     align-self: center;
     text-align: center;
-}
-
-.gradient-text {
-    background: -webkit-linear-gradient(#1B7432, #67B900);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 main .introduction a {

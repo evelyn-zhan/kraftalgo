@@ -1,27 +1,11 @@
-* {
-    margin: 0;
-    font-family: 'Manrope', sans-serif;
-}
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2.8rem;
 
-body {
-    font-weight: 500;
+    padding: 2.8rem;
 }
 
 p {
-    margin-top: 1rem;
-}
-
-header {
-    display: inline;
-}
-
-.logo {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-
-    padding: 1.3rem 2.5rem;
-
-    position: sticky;
-    top: 0;
+    font-size: 0.9rem;
 }
