@@ -45,4 +45,8 @@ footer {
     .logo {
         padding-left: 1.5rem;
     }
+
+    footer {
+        padding: 2rem;
+    }
 }
