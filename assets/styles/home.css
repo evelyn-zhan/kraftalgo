@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    font-weight: 500;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+header {
+    display: inline;
+}
+
+.logo {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+    padding: 1.3rem 2.5rem;
+
+    position: sticky;
+    top: 0;
+}
