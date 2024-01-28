@@ -26,6 +26,7 @@ p {
 
 .introduction .button {
     padding: 1rem 1.5rem;
+    margin-top: 1.5rem;
 
     background-color: black;
     font-weight: 700;
@@ -69,14 +70,14 @@ p {
 
 @media screen and (max-width: 800px) {
     main {
-        padding: 10rem 2rem;
+        padding: 8rem 2rem;
     }
 }
 
 @media screen and (max-width: 600px) {
     main {
         gap: 3rem;
-        padding-bottom: 5rem;
+        padding: 5rem 2rem;
     }
 
     h1 {

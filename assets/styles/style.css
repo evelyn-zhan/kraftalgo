@@ -24,6 +24,10 @@ a {
     align-items: center;
 
     padding: 1.5rem 2.5rem;
+
+    background-color: white;
+    
+    border-bottom: solid 1px #A9A9A9;
 }
 
 .gradient-text {
