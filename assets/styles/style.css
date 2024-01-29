@@ -35,29 +35,6 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
-.part {
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 2rem;
-}
-
-.list {
-    display: flex;
-    gap: 2.5rem;
-}
-
-.list-item {
-    display: flex;
-    gap: 0.8rem;
-    align-items: center;
-
-    padding: 0.8rem;
-    width: 30%;
-
-    border-radius: 10px;
-    border: solid 1px #A9A9A9;
-}
-
 footer {
     text-align: center;
 
