@@ -1,6 +1,5 @@
 main {
-    padding: 3rem;
-    padding-right: 10rem;
+    padding: 3rem 8rem;
 }
 
 p {
@@ -12,8 +11,46 @@ a {
     font-weight: 600;
 }
 
-@media screen and (max-width: 600px) {
+.part {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+}
+
+.list {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.list-item {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+
+    padding: 0.8rem;
+    width: 50%;
+
+    border-radius: 10px;
+    border: solid 1px #A9A9A9;
+}
+
+@media screen and (max-width: 1100px) {
+    main {
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
     main {
         padding: 3rem 1.5rem;
+    }
+
+    .list {
+        flex-flow: column nowrap;
+        gap: 1.5rem;
+    }
+
+    .list-item {
+        width: 100%;
     }
 }
