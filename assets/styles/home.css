@@ -3,7 +3,7 @@ main {
     flex-flow: column nowrap;
     gap: 4rem;
 
-    padding: 3rem 6rem;
+    padding: 3rem;
 }
 
 p {
@@ -49,10 +49,6 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
-    main {
-        padding: 3rem;
-    }
-
     .list-item {
         width: 50%;
     }
