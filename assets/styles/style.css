@@ -9,9 +9,11 @@ body {
 }
 
 header {
-    display: inline-block;
+    display: block;
     position: sticky;
     top: 0;
+
+    background-color: white;
 }
 
 a {
@@ -24,8 +26,6 @@ a {
     align-items: center;
 
     padding: 1.5rem 2.5rem;
-
-    background-color: white;
 }
 
 .gradient-text {
