@@ -2080,6 +2080,11 @@ video {
   padding-right: 3rem;
 }
 
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
