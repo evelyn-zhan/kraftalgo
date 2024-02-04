@@ -10,89 +10,91 @@
 
         <title>Home | Kraftalgo</title>
 
-        <link rel = "icon" href = "../assets/images/kraftalgo.png">
+        <link rel = "icon" href = "../src/images/kraftalgo.png">
 
-        <link rel = "stylesheet" href = "../assets/styles/style.css">
-        <link rel = "stylesheet" href = "../assets/styles/home.css">
+        <link rel = "stylesheet" href = "../input.css">
+        <link rel = "stylesheet" href = "../output.css">
     </head>
 
-    <body>
-        <header>
-            <div class = "logo">
-                <img src = "../assets/images/kraftalgo.png" width = "28px" height = "28px">
-                <a href = "/"><span style = "font-size: 20px; font-weight: 600; color: #1B7432;">kraft<span style = "color: #52A032">algo</span></span></a>
+    <body class = "font-medium text-base">
+        <header class = "px-10 py-6">
+            <div class = "flex flex-row gap-x-2 items-center">
+                <img class = "w-7 h-7" src = "../src/images/kraftalgo.png">
+                <a href = "/"><span class = "font-semibold text-xl text-[#1B7432]">kraft<span class = "text-[#52A032]">algo</span></span></a>
             </div>
         </header>
 
-        <main>
-            <h1 class = "gradient-text">Welcome to Kraftalgo!</h1>
-            <p style = "font-size: 1.1rem;">
-                Looking for <b>editorial</b> to a problem?<br>
-                Explore editorials for problems from <b>various</b> Competitive Programming <b>platforms</b> and <b>contests</b>.
-            </p>
+        <main class = "p-12 flex flex-col gap-y-12">
+            <div>
+                <h1 class = "font-bold text-3xl"><span class = "bg-clip-text text-transparent bg-gradient-to-r from-[#1B7432] to-[#67B900]">Welcome to Kraftalgo!</span></h1>
+                <p class = "text-justify">
+                    Looking for <span class = "font-bold">editorial</span> to a problem?<br>
+                    Explore editorials for problems from <span class = "font-bold">various</span> Competitive Programming <span class = "font-bold">platforms</span> and <span class = "font-bold">contests</span>.
+                </p>
+            </div>
 
-            <section class = "platforms part">
-                <div class = "description-1">
-                    <div class = "description-2">
-                        <h2 class = "gradient-text">Platforms.</h2>
-                        <p>
+            <div class = "flex flex-col gap-y-6">
+                <div class = "flex flex-row gap-x-12 items-center">
+                    <div class = "w-4/5 lg:w-3/5">
+                        <h2 class = "font-bold text-2xl"><span class = "bg-clip-text text-transparent bg-gradient-to-r from-[#1B7432] to-[#67B900]">Platforms.</span></h2>
+                        <p class = "text-justify">
                             Choose the source (platform) to the problems you are trying to solve, and explore the editorials!<br>
                             These are the platforms that Kraftalgo currently supports.
                         </p>
                     </div>
-                    <img src = "../assets/images/rgb.png" width = "80px" height = "80px">
+                    <img class = "w-20 h-20" src = "../src/images/rgb.png">
                 </div>
 
-                <div class = "online-judges list">
-                    <div class = "oj list-item">
-                        <img src = "../assets/images/tlx.png" width = "28px" height = "28px">
-                        <a href = "/tlx">TLX</a>
+                <div class = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class = "p-3 flex flex-flow gap-x-4 items-center rounded-lg border-solid border-[1px] border-[#A9A9A9]">
+                        <img class = "w-7 h-7" src = "../src/images/tlx.png">
+                        <a href = "../tlx">TLX</a>
                     </div>
 
-                    <div class = "oj list-item">
-                        <img src = "../assets/images/atcoder.png" width = "28px" height = "28px">
-                        <a href = "/atcoder">AtCoder</a>
+                    <div class = "p-3 flex flex-flow gap-x-4 items-center rounded-lg border-solid border-[1px] border-[#A9A9A9]">
+                        <img class = "w-7 h-7" src = "../src/images/atcoder.png">
+                        <a href = "../not-available">AtCoder</a>
                     </div>
 
-                    <div class = "oj list-item">
-                        <img src = "../assets/images/cf.png" width = "28px" height = "28px">
-                        <a href = "/codeforces">Codeforces</a>
+                    <div class = "p-3 flex flex-flow gap-x-4 items-center rounded-lg border-solid border-[1px] border-[#A9A9A9]">
+                        <img class = "w-7 h-7" src = "../src/images/cf.png">
+                        <a href = "../not-available">Codeforces</a>
                     </div>
                 </div>
-            </section>
+            </div>
 
-            <section class = "contests part">
-                <div class = "description-1">
-                    <div class = "description-2">
-                        <h2 class = "gradient-text">Contests.</h2>
-                        <p>
+            <div class = "flex flex-col gap-y-6">
+                <div class = "flex flex-row gap-x-12 items-center">
+                    <div class = "w-4/5 lg:w-3/5">
+                        <h2 class = "font-bold text-2xl"><span class = "bg-clip-text text-transparent bg-gradient-to-r from-[#1B7432] to-[#67B900]">Contests.</span></h2>
+                        <p class = "text-justify">
                             Kraftalgo also provides editorials to Competitive Programming contests, starting from Indonesian local contests to International scale contests!
                         </p>
                     </div>
-                    <img src = "../assets/images/winner.png" width = "80px" height = "80px">
+                    <img class = "w-20 h-20" src = "../src/images/winner.png">
                 </div>
 
-                <div class = "contest-list list">
-                    <div class = "contest-name list-item">
-                        <img src = "../assets/images/osn-informatika.png" width = "28px" height = "28px">
-                        <a href = "/osn">Olimpiade Sains Nasional</a>
+                <div class = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class = "p-3 flex flex-flow gap-x-4 items-center rounded-lg border-solid border-[1px] border-[#A9A9A9]">
+                        <img class = "w-7 h-7" src = "../src/images/osn-informatika.png">
+                        <a href = "../not-available">Olimpiade Sains Nasional</a>
                     </div>
 
-                    <div class = "contest-name list-item">
-                        <img src = "../assets/images/icpc.png" width = "28px" height = "28px">
-                        <a href = "/inc">Indonesia National Contest (INC)</a>
+                    <div class = "p-3 flex flex-flow gap-x-4 items-center rounded-lg border-solid border-[1px] border-[#A9A9A9]">
+                        <img class = "w-7 h-7" src = "../src/images/icpc.png">
+                        <a href = "../not-available">Indonesia National Contest (INC)</a>
                     </div>
                     
-                    <div class = "contest-name list-item">
-                        <img src = "../assets/images/icpc.png" width = "28px" height = "28px">
-                        <a href = "/icpc-asia-jakarta">ICPC Asia Jakarta</a>
+                    <div class = "p-3 flex flex-flow gap-x-4 items-center rounded-lg border-solid border-[1px] border-[#A9A9A9]">
+                        <img class = "w-7 h-7" src = "../src/images/icpc.png">
+                        <a href = "../not-available">ICPC Asia Jakarta</a>
                     </div>
                 </div>
-            </section>
+            </div>
         </main>
 
-        <footer>
-            Copyright &copy; 2024. <b>Kraftalgo</b>. All rights reserved.
+        <footer class = "px-2 py-4 text-base text-[#A9A9A9] text-center">
+            Copyright &copy; 2024. <span class = "font-bold">Kraftalgo</span>. All rights reserved.
         </footer>
     </body>
 </html>

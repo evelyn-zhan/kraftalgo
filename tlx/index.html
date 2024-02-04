@@ -8,45 +8,48 @@
         <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
         <link href = "https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel = "stylesheet">
 
-        <title>TLX | Kraftalgo</title>
+        <title>Home | Kraftalgo</title>
 
-        <link rel = "icon" href = "../assets/images/kraftalgo.png">
+        <link rel = "icon" href = "../src/images/kraftalgo.png">
 
-        <link rel = "stylesheet" href = "../assets/styles/style.css">
-        <link rel = "stylesheet" href = "../assets/styles/platform.css">
+        <link rel = "stylesheet" href = "../input.css">
+        <link rel = "stylesheet" href = "../output.css">
     </head>
 
-    <body>
-        <header>
-            <div class = "logo">
-                <img src = "../assets/images/kraftalgo.png" width = "28px" height = "28px">
-                <a href = "/"><span style = "font-size: 20px; font-weight: 600; color: #1B7432;">kraft<span style = "color: #52A032">algo</span></span></a>
+    <body class = "font-medium text-base">
+        <header class = "px-10 py-6">
+            <div class = "flex flex-row gap-x-2 items-center">
+                <img class = "w-7 h-7" src = "../src/images/kraftalgo.png">
+                <a href = "/"><span class = "font-semibold text-xl text-[#1B7432]">kraft<span class = "text-[#52A032]">algo</span></span></a>
             </div>
         </header>
 
-        <main>
-            <div class = "part">
-                <div class = "description">
-                    <h1 class = "gradient-text">TLX</h1>
-                    <p style = "text-align: justify;">
-                        TLX is a Competitive Programming platform developed by enthusiast competitive programmers from Indonesia.
-                        This platform belongs to TOKI, a community of top competitive programmers in Indonesia.
-                        TLX serves as a training platform for students across Indonesia who are interested in Competitive Programming, and those who want to join the Indonesia's National Olympiad in Informatics (OSN Informatika).
-                    </p>
-                </div>
-    
-                <div class = "courses list">
-                    <div class = "course list-item">
-                        <img src = "../assets/images/curly-brackets.png" width = "28px" height = "28px">
-                        <a href = "/tlx/pemrograman-dasar">Pemrograman Dasar</a>
-                    </div>
+        <main class = "p-12 flex flex-col gap-y-6">
+            <div>
+                <h1 class = "font-bold text-3xl"><span class = "bg-clip-text text-transparent bg-gradient-to-r from-[#1B7432] to-[#67B900]">TLX</span></h1>
+                <p class = "lg:w-4/5 text-justify">
+                    TLX is a Competitive Programming platform developed by enthusiast competitive programmers from Indonesia.
+                    This platform belongs to TOKI, a community of top competitive programmers in Indonesia.
+                    TLX serves as a training platform for students across Indonesia who are interested in Competitive Programming,
+                    and those who want to join the Indonesia's National Olympiad in Informatics (OSN Informatika).
+                </p>
+            </div>
 
-                    <div class = "course list-item">
-                        <img src = "../assets/images/3d-medal.png" width = "28px" height = "28px">
-                        <a>Pemrograman Kompetitif Dasar</a>
-                    </div>
+            <div class = "lg:w-4/5 grid grid-cols-2 gap-4">
+                <div class = "p-3 flex flex-flow gap-x-4 items-center rounded-lg border-solid border-[1px] border-[#A9A9A9]">
+                    <img class = "w-7 h-7" src = "../src/images/curly-brackets.png">
+                    <a href = "../not-available">Pemrograman Dasar</a>
+                </div>
+
+                <div class = "p-3 flex flex-flow gap-x-4 items-center rounded-lg border-solid border-[1px] border-[#A9A9A9]">
+                    <img class = "w-7 h-7" src = "../src/images/3d-medal.png">
+                    <a href = "../not-available">Pemrograman Kompetitif Dasar</a>
                 </div>
             </div>
         </main>
+
+        <footer class = "px-2 py-4 text-base text-[#A9A9A9] text-center">
+            Copyright &copy; 2024. <span class = "font-bold">Kraftalgo</span>. All rights reserved.
+        </footer>
     </body>
 </html>
