@@ -861,6 +861,10 @@ video {
   height: fit-content;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -2817,6 +2821,10 @@ video {
   .lg\:h-fit {
     height: -moz-fit-content;
     height: fit-content;
+  }
+
+  .lg\:h-2\/3 {
+    height: 66.666667%;
   }
 
   .lg\:w-3\/5 {
