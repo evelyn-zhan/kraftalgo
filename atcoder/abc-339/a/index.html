@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel = "stylesheet">
+
+        <title>ABC 339 | Kraftalgo</title>
+
+        <link rel = "icon" href = "/src/images/kraftalgo.png">
+
+        <link rel = "stylesheet" href = "/input.css">
+        <link rel = "stylesheet" href = "/output.css">
+    </head>
+
+    <body class = "font-medium text-base">
+        <header class = "px-6 md:px-10 py-5 bg-white">
+            <div class = "flex flex-row gap-x-2 items-center">
+                <img class = "w-7 h-7" src = "/src/images/kraftalgo.png">
+                <a href = "/"><span class = "font-semibold text-xl text-[#1B7432]">kraft<span class = "text-[#52A032]">algo</span></span></a>
+            </div>
+        </header>
+
+        <main class = "px-6 md:px-10 py-6 flex flex-col gap-y-4">
+            <img class = "w-12 h-12" src = "/src/images/chat.png">
+            <h1 class = "font-extrabold text-2xl">A - TLD</h1>
+            <p>
+                Let <code class = "ml-1 px-2 py-1 bg-[#F9F9F9] text-[#52A032] rounded-md">dot</code> be the last position
+                of <code class = "ml-1 px-2 py-1 bg-[#F9F9F9] text-[#52A032] rounded-md">.</code> in string \(S\).<br>
+                For every \(i\) \((1 \leq i \leq |S|)\), if \(S_i\) is a
+                <code class = "ml-1 px-2 py-1 bg-[#F9F9F9] text-[#52A032] rounded-md">.</code>, store the position to
+                <code class = "ml-1 px-2 py-1 bg-[#F9F9F9] text-[#52A032] rounded-md">dot</code>. Then, print the
+                characters of \(S\) starting from \(S_{dot + 1}\) to the last character.
+            </p>
+            <img class = "w-full h-full lg:w-1/2 lg:h-1/2 rounded-lg" src = "/src/images/abc/339/abc-339-a.png">
+            <p>Time Complexity: \(O(|S|)\)</p>
+        </main>
+
+        <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    </body>
+</html>
